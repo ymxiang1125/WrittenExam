@@ -7,11 +7,13 @@ body {
 
 header {
   width: 100%;
+  position: fixed;
+  top: 0;
   background-color: #0e4bb8; }
   header img {
     position: absolute;
     left: 10px;
-    top: 32px; }
+    top: 10px; }
   header div {
     display: inline-block;
     width: 60vw;
@@ -35,6 +37,7 @@ header {
       margin-left: -14.5vw; }
 
 article {
+  margin-top: 20px;
   padding: 20px 20px 25px;
   font-family: PingFang SC;
   font-weight: 400;
