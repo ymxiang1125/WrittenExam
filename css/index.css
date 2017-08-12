@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #F7F7F7; }
+
+header {
+  width: 100%;
+  background-color: #0e4bb8; }
+  header img {
+    position: absolute;
+    left: 10px;
+    top: 32px; }
+  header div {
+    display: inline-block;
+    width: 60vw;
+    height: 43px;
+    margin-left: 20vw;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #E1F5FE; }
+    header div > span {
+      display: inline-block;
+      float: left;
+      width: 29vw;
+      padding: 2px 0 9px 0;
+      margin-top: 5px; }
+    header div .active {
+      background: url("../images/bg_Nav bar_btn.svg") no-repeat center center;
+      color: #323232;
+      background-size: 100%; }
+    header div > span:nth-child(2) > span {
+      margin-left: -14.5vw; }
+
+article {
+  padding: 20px 20px 25px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  letter-spacing: 4px;
+  background-color: #fff; }
+
+.choose {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 25px;
+  background-color: #0e4bb8;
+  background: url("../images/bg_bluecircle.svg") repeat center center;
+  border-radius: 9px; }
+  .choose .topic {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 15px 10px 0;
+    padding: 10px; }
+    .choose .topic .per {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      clear: both; }
+      .choose .topic .per .head {
+        width: 22px;
+        height: 22px;
+        background: url("../images/img_head.svg") no-repeat center center;
+        background-size: 100%;
+        border-radius: 50%;
+        margin: 10px;
+        float: left; }
+      .choose .topic .per span {
+        float: left;
+        margin-top: 10px; }
+    .choose .topic .question {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #323232; }
+    .choose .topic .options {
+      height: 50px;
+      margin-bottom: 25px; }
+      .choose .topic .options .options_img {
+        text-align: left;
+        display: inline-block;
+        width: 19vw;
+        height: 30px; }
+        .choose .topic .options .options_img:last-child {
+          text-align: right;
+          width: 25vw;
+          height: 50px;
+          margin-right: 0; }
+  .choose .scoles {
+    padding: 20px 10px 20px 20px;
+    height: 35px; }
+    .choose .scoles label {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      clear: both;
+      overflow: hidden;
+      background-size: 100%; }
+      .choose .scoles label:last-child {
+        margin-left: 10vw; }
+      .choose .scoles label > .ratio {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        border: solid 1px #fff;
+        margin-right: 10px;
+        text-align: center;
+        position: relative;
+        top: -4px; }
+        .choose .scoles label > .ratio > span {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          margin-top: 3px;
+          border-radius: 50%; }
+      .choose .scoles label > .chosed > span {
+        background-color: #fff; }
+      .choose .scoles label > .goal {
+        position: relative;
+        top: -4px; }
+    .choose .scoles > span {
+      text-align: center;
+      display: inline-block;
+      margin-top: -20px;
+      width: 30vw;
+      height: 60px;
+      line-height: 60px;
+      font-size: 20px;
+      font-weight: 600px;
+      float: right;
+      margin-right: 10px;
+      background: url("../images/btn_bg_normal.svg") no-repeat center center;
+      background-size: 100% 100%;
+      margin-bottom: 20px; }
+  .choose .bottom {
+    float: left;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    background-color: #fff;
+    padding: 0; }
+    .choose .bottom > img {
+      position: relative;
+      bottom: -5px; }
+    .choose .bottom .bottom_img {
+      position: relative;
+      bottom: -5px;
+      width: 22vw;
+      display: inline-block;
+      text-align: center; }
+      .choose .bottom .bottom_img img {
+        position: relative;
+        bottom: 0; }
+      .choose .bottom .bottom_img .active {
+        bottom: 15px; }
+      .choose .bottom .bottom_img span {
+        width: 55%;
+        height: 4px;
+        display: inline-block;
+        position: relative;
+        bottom: 0;
+        border-radius: 2px;
+        background-color: #141315; }
+
+/*# sourceMappingURL=index.css.map */
